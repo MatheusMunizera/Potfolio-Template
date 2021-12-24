@@ -756,13 +756,13 @@ button:focus {
 .work_img_box .work_images .work_overlay h4 {
     overflow: hidden;
     position: absolute;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
-    top: 54px;
     z-index: 2;
+    right: 0;
+    bottom: 0;
     color: transparent;
     transition: color 150ms ease-in-out 200ms;
-    right: 25px;
     padding: 0 10px
 }
 
@@ -770,8 +770,8 @@ button:focus {
     color: transparent;
     overflow: hidden;
     position: absolute;
-    top: 30px;
-    right: 25px;
+    top: 5px;
+    right: 0;
     z-index: 2;
     font-size: 18px;
     transition: color 150ms ease-in-out 200ms;
@@ -1328,4 +1328,51 @@ button:focus {
     width: 195px;
     height: 200px;
     object-fit: scale-down;
+}
+
+.certify{
+    background-size: cover;
+    background-position: center center;
+    /* background: linear-gradient(32deg, rgba(235, 229, 229, 0.075) 0%, rgba(195, 195, 199, 0.87) 100%); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%
+   
+}
+
+
+.resume-wrap .icon {
+    width: 50px;
+    height: 50px;
+    /* background: #3b3b3f; */
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.page .heading {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #3e64ff;
+}
+
+.resume-wrap .text {
+    width: calc(100% - 50px);
+}
+
+.resume-wrap h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.resume-wrap .position {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
 }
